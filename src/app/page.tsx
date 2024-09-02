@@ -1,4 +1,6 @@
-import Image from "next/image";
+import fetchTeams from "./pages/api/sleeper";
+
+fetchTeams();
 
 export default function Home() {
   return (
