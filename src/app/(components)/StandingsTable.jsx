@@ -16,10 +16,14 @@ export default async function StandingsTable() {
         </thead>
         {teams.map((team) => (
           <tbody key="">
-            <td className="border border-white p-4">{team.roster_id}</td>
-            <td className="border border-white p-4">{team.settings.wins}</td>
-            <td className="border border-white p-4">{team.settings.losses}</td>
-            <td className="border border-white p-4">{team.settings.ties}</td>
+            <tr>
+              <td className="border border-white p-4">{team.roster_id}</td>
+              <td className="border border-white p-4">{team.settings.wins}</td>
+              <td className="border border-white p-4">
+                {team.settings.losses}
+              </td>
+              <td className="border border-white p-4">{team.settings.ties}</td>
+            </tr>
           </tbody>
         ))}
       </table>
