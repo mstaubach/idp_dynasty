@@ -12,6 +12,11 @@ const NavBar = () => {
       <div className="flex justify-center">
         <h1 className="bold-text text-3xl">IDP Dynasty</h1>
       </div>
+      <div className="flex justify-end px-10">
+        <div className="my-auto">
+          <Link href="/">Home</Link>
+        </div>
+      </div>
     </nav>
   );
 };
