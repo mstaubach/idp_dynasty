@@ -14,7 +14,7 @@ export default async function StandingsTable() {
             <th className="border border-white p-4">Ties (Ew)</th>
           </tr>
         </thead>
-        {teams.map((team: any) => (
+        {teams.map((team) => (
           <tbody key="">
             <td className="border border-white p-4">{team.roster_id}</td>
             <td className="border border-white p-4">{team.settings.wins}</td>
