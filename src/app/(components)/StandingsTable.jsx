@@ -6,7 +6,7 @@ export default async function StandingsTable() {
 
   //Sorting wins from highest to lowest
   teams.sort(
-    (a, b) => parseFloat(a.settings.wins) - parseFloat(b.settings.wiins)
+    (a, b) => parseFloat(a.settings.wins) - parseFloat(b.settings.wins)
   );
 
   console.log(teams);

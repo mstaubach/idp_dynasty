@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div>
+    <div className="p-5">
       <p>Created by Michael Staubach</p>
     </div>
   );
